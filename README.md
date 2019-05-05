@@ -8,7 +8,7 @@ django-admin startproject project
 python manage.py migrate
 python manage.py runserver
 
-#(env)project/settings.py
+# (env)project/settings.py
 Add the django-allauth at settings.py
 
 INSTALLED_APPS = [
@@ -30,7 +30,7 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = 'home'
 
-#(env)project/urls.py
+# (env)project/urls.py
 ....
 	path('accounts/', include('allauth.urls')),
 ...
